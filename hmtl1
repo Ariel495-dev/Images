@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen centrada con borde</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Ocupa toda la altura de la ventana */
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .contenedor {
+            border: 2px solid black; /* borde negro */
+            padding: 20px; /* espacio interno */
+            display: flex;
+            justify-content: center; /* centra horizontalmente la imagen */
+        }
+
+        .contenedor img {
+            display: block;
+            max-width: 100%; /* evita que la imagen se salga del contenedor */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <img src="A3Qw_5YCAAAtTVg.jpg" alt="Imagen centrada">
+    </div>
+</body>
+</html>
